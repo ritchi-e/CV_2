@@ -1,0 +1,15 @@
+.venv/
+__pycache__/
+*.py[cod]
+.DS_Store
+*.log
+
+# DUTS is large; download separately from saliencydetection.net/duts/
+data/DUTS-TR/
+data/DUTS-TE/
+data/*.zip
+data/*.parquet
+
+# local masks from predict.py demos
+mask.png
+results/demo_mask.png
